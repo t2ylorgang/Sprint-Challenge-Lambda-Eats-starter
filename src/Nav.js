@@ -4,15 +4,18 @@ import { Link } from "react-router-dom";
 
 function Nav() {
 
-  const style = {
-    color: "green"
+  const navStyle = {
+    color: "gold"
   };
 
   return (
     <nav>
       <ul className = "navLinks">
-        <Link to = "/pizza">
+        <Link style = {navStyle} to = "/pizza">
           <li>Pizza</li>
+        </Link>
+        <Link style = {navStyle} to = "/">
+          <li>Home</li>
         </Link>
       </ul>
     </nav>

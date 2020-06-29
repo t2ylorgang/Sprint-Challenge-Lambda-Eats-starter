@@ -5,7 +5,7 @@ import "./App.css";
 import Nav from "./Nav";
 import Pizza from "./Pizza";
  
-function App() { //need class app extends component and then a render() here instead? 1h03 in tutorial.
+function App() { //need class app extends component and then a render() here instead? 1:03 in tutorial
   return (
     <Router>
       <div className = "App">
